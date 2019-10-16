@@ -27,6 +27,7 @@ public class BootstrapDemo {
 		System.out.println(allValues);
 		if(lst.get(i).isSelected()) {
 			System.out.println("Its already selected");
+			System.out.println("Its new change");
 		}else {
 			lst.get(i).click();
 		}
